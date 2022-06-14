@@ -20,7 +20,7 @@ Following the documentation link of above:
 ## Reproduce the issue:
 
 - First we need to use the NX console to make the build for both projects dashboard and login
-- After that we need to run this command on the rrot folder of the project **docker-compose up --build**
+- After that we need to run this command on the root folder of the project **docker-compose up --build**
 - Then if we try to access to *http://localhost:4200/* we will see this error on the console:
 
 ![alt text](https://github.com/ArticosDev/NX_Dynamic_Federation_Module/blob/main/Error_screenshot.jpg?raw=true)
