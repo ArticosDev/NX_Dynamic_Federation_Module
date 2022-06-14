@@ -1,0 +1,21 @@
+version: '3'
+services:
+  app-dashboard:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile 
+      args:
+        APP: dashboard
+        PORT: 4200
+    ports:
+      - "4200:8080"
+  app-login:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile 
+      args:
+        APP: login
+        PORT: 4201
+    ports:
+      - "4201:8080"
+ 
