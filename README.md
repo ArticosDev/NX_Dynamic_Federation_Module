@@ -23,7 +23,7 @@ Following the documentation link of above:
 - After that we need to run this command on the rrot folder of the project **docker-compose up --build**
 - Then if we try to access to *http://localhost:4200/* we will see this error on the console:
 
-![alt text](https://github.com/ArticosDev/NX_Dynamic_Federation_Module/blob/[branch]/Error_screenshot.jpg?raw=true)
+![alt text](https://github.com/ArticosDev/NX_Dynamic_Federation_Module/blob/main/Error_screenshot.jpg?raw=true)
 
 ## Aditional Comments:
 We are working un a huge project with my team and we got exactly the same error, we created this repository just reproduce the issue for NX team.
