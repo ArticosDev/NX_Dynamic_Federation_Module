@@ -1,3 +1,8 @@
+#EDIT:
+Funny ending, in the main file, I have this line:
+fetch('/assets/module-federation.manifest.json')
+But the file wasn't available on the docker image because my colleague made it an API, so we just changed the file by the API :)
+
 # Example error Dynamic Module Federation with angular
 
 This project was created following the official documentation on this link:
